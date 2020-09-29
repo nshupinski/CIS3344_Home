@@ -1,0 +1,497 @@
+﻿#title {
+    font-size: x-large;
+    font-weight: 500;
+    padding: 0;
+}
+.footer {
+    background-color: #FAFAFA;
+}
+.title {
+    color: #4A4A4A;
+}
+#subtitleBrand {
+    font-size: large;
+}
+.navbar-menu.is-active {
+    box-shadow: none;
+    padding: 0;
+}
+.navbar-item {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.navbar-menu.is-active #learn-bulma {
+    width: 120px;
+    height: 40px;
+    margin: 15px;
+}
+#gameContainer {
+    width: 100%;
+}
+.navbar-burger, .navbar-item {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navbar-menu.is-active .navbar-end {
+    padding-bottom: 10px;
+}
+.navbar-menu #learn-bulma {
+    background-color: #f03a5f;
+    color: white;
+    border-radius: 4px;
+}
+.card {
+    background-color: whitesmoke
+}
+.card-list-item {
+    clear: both;
+}
+.title.is-5 {
+    width: 70%;
+    float: left;
+    min-height: 45px;
+}
+.rating-button, .review-rating {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: large;
+    float: left;
+    margin-left: 13%;
+}
+.review-card {
+    max-width: 415px;
+    min-height: 305px;
+    margin: auto;
+}
+#all-reviews {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.button-reviews:hover, .button-add-new:hover, .button-reviews:active, .button-add-new:active {
+    background-color: #f03a5f;
+}
+.tabs a:hover {
+    color: white;
+}
+.button-reviews, .button-add-new {
+    font-weight: 600;
+    font-size: 15px;
+    color: #4a4a4a;
+    border-bottom-style: none;
+}
+.tabs ul {
+    border: none;
+}
+#mainNav {
+    padding-bottom: 0.5%;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 0.5%;
+    box-shadow: none;
+}
+#hero-title, #hero-title-2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#hero-title-2 {
+    width: 75%;
+    margin: auto;
+}
+.column {
+    padding: 2%;
+}
+#hero-body-title, #hero-body-review {
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#ttlFeaturedGames {
+    padding: 2%;
+}
+.level, .level-left {
+    margin: auto;
+}
+.modal-card {
+    margin-top: 5%;
+}
+.modal-card-head, .modal-card-foot {
+    border: none;
+}
+.modal-card-head {
+    background-color: #4A4A4A;
+}
+.modal-card-foot, .modal-card-body, .box, #reviewContent {
+    background-color: whitesmoke;
+}
+.textarea {
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+.box {
+    box-shadow: none;
+}
+.game-filter {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container.filter-title {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+}
+#game-filters {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#gameSection {
+    padding-top: 4%;
+    padding-bottom: 5%;
+
+}
+.card.game-card {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#games-help {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+#filterSection {
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 6%;
+}
+.modal .content:not(:last-child), .modal .content {
+    padding: 1%;
+    margin: 0;
+}
+.modal .box {
+    margin: 0;
+    padding-top: 0;
+}
+#review-user {
+    width: 40%;
+}
+.field.has-addons {
+    justify-content:center;
+}
+#username-section {
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 8%;
+}
+.button.is-warning, .button.is-warning:hover, .button.is-warning::selection {
+    color: white;
+}
+button {
+    color: white;
+}
+.delete-review {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 0;
+    font-weight: 600;
+}
+.delete-review:hover {
+    background-color: #f03a5f;
+    color: white;
+
+}
+#review-ImageDiv {
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+#review-Image {
+    border-radius: 5px;   
+}
+.help {
+    font-weight: bold;
+}
+.modal-card-body {
+    max-height: 600px;
+}
+#game-suggestion {
+    background-color: rgba(0, 0, 0, 0.07);
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+#suggest-form {
+    width: 25%;
+    margin: auto;
+}
+#suggest-date {
+    justify-content:flex-start;
+}
+#suggest-form .label {
+    color: white;
+}
+#suggest-submit-container {
+    margin: auto;
+    width: 85px;
+    padding-top: 3%;
+}
+#suggest-submit {
+    padding-left: 26%;
+    padding-right: 26%;
+}
+#suggest-form .field {
+    padding: 1%;
+}
+#prependedtext-1 {
+    width: 100%;
+}
+#suggestion-additional {
+    height: 170px;
+}
+.review-popup-rating {
+    padding: 0;
+    height: 2em;
+    width: 2em;
+    margin-right: 3%;
+    font-weight: bold;
+}
+.favorite-icon {
+    margin-left: 3%;
+    position: relative;
+    bottom: -2px;
+}
+#field-add-favorite {
+    margin-bottom: 4%;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 20px;
+    width: 70%;
+}
+#help-favorite {
+    position: relative;
+    bottom: 35px;
+}
+#favorites-title {
+    padding: 7%;
+    background-color: rgba(0, 0, 0, 0.07);
+    margin: -10rem;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#my-reviews-placeholder {
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+#tutorial .message img {
+    border-radius: 6px;
+}
+.pic-caption {
+    margin: 2%;
+}
+.hero-body {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+@media screen and (min-width: 769px) {
+    #tutorial .message img, .pic-caption {
+        width: 60%;
+        margin: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #finishedPage1, finishedPage2 {
+        margin: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #favorites-title {
+        margin: -2.5rem;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+}
+@media screen and (max-width: 1450px) {
+    #suggest-form {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #mainNav {
+    padding: 0;
+    }
+    .column {
+        padding: 2%;
+    }
+    #hero-body-title, #hero-body-review {
+        padding: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    #ttlFeaturedGames {
+        margin-bottom: 4%;
+    }
+    .game-filter, .container.filter-title {
+        width: 200px;
+    }
+    #suggest-form {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 551px) {
+    .column {
+        width: 95%;
+        margin: auto;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    #ttlFeaturedGames {
+        margin-bottom: 9%;
+        margin-top: 12%;
+    }
+    .modal-card {
+        width: 92%;
+        margin: auto;
+        margin-top: 5%;
+    }
+    .box {
+        margin: 0;
+        padding: 0;
+    }
+    #filter-columns {
+        margin-bottom: 12%;
+    }
+    #gameSection {
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .game-filter, .container.filter-title {
+        width: 250px;
+    }
+    #games-help {
+        margin-top: 23%;
+        margin-bottom: 15%;
+    }
+    .modal .box {
+        padding-bottom: 1.25rem;
+    }
+    #review-user {
+        width: 55%;
+    }
+    #hero-title-2 {
+        width: 95%;
+    }
+    #filterSection {
+        margin-top: 15%;
+    }
+    #username-section {
+        padding-top: 18%;
+        padding-bottom: 18%;
+        margin-top: 10%;
+    }
+    #suggest-form {
+        width: 75%;
+    }
+    #favorites-title {
+        padding-top: 16%;
+        padding-bottom: 16%;
+    }
+    #my-reviews-placeholder {
+        margin-top: 11%;
+        margin-bottom: 18%;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 550px) {
+    .column {
+        width: 75%;
+        margin: auto;
+    }
+
+    #hero-body-title, #hero-body-review {
+        width: 75%;
+        padding: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    #game-container-title {
+        width: 75%;
+    }
+
+    .modal-card {
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .box {
+        margin: 0;
+        padding: 0;
+    }
+
+    .modal .box {
+        padding-bottom: 1.25rem;
+    }
+
+    .card.game-card {
+        max-width: 400px;
+    }
+
+    #ttlFeaturedGames {
+        margin-bottom: 9%;
+        margin-top: 4%;
+    }
+
+    #review-user {
+        width: 47%;
+    }
+
+    #filterSection {
+        margin-top: 15%;
+    }
+
+    #username-section {
+        padding-top: 12%;
+        padding-bottom: 12%;
+        margin-top: 10%;
+    }
+
+    #suggest-form {
+        width: 55%;
+    }
+
+    #favorites-title {
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+
+    #my-reviews-placeholder {
+        margin-top: 9%;
+        margin-bottom: 16%;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .column {
+        padding: 4%;
+    }
+    .review-column {
+        padding: 2%;
+    }
+    .filter-column {
+        padding: 0;
+        padding-top: 1%;
+    }
+    .review-container {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1006px) {
+    .title.is-5 {
+        width: 66%;
+        margin-bottom: 6%;
+        min-height: 0;
+    }
+    .rating-button {
+        margin-bottom: 6%;
+    }
+}

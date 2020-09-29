@@ -1,0 +1,153 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+.topHome is-light {
+    overflow: auto;
+}
+
+.CreateProfile {
+    width: 10%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+.CreateProfile a {
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    text-decoration: none;
+}
+
+
+.header img {
+    width: 100%;
+    height: 550px;
+    margin-bottom: -4px;
+}
+
+.selectors {
+    background-color: black;
+    overflow: auto;
+}
+
+/*Filter Section*/
+.genderSelect {
+    /*Border*/
+    border-style: solid;
+    border-width: thick;
+    /*Text*/
+    text-align: center;
+    font-size: larger;
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: #b30000;
+    border-radius: 25px;
+    margin-left: 6%;
+    margin-top: 3%;
+    float: left;
+    width: 30%;
+}
+
+.submit {
+    /*Border*/
+    border-style: solid;
+    border-width: thick;
+    /*Text*/
+    text-align: center;
+    font-size: larger;
+    box-sizing: border-box;
+    padding: 4%;
+    background-color: #e67300;
+    border-radius: 25px;
+    margin-left: 6%;
+    margin-top: 5%;
+    float: left;
+    width: 15%;
+}
+
+#btnSubmit {
+    align-content: center;
+    font-size: larger;
+    background-color: darkgray;
+    border-radius: 25px;
+    padding: 4%;
+}
+
+.stateSelect {
+    /*Border*/
+    border-style: solid;
+    border-width: thick;
+
+    /*Text*/
+    text-align: center;
+    font-size: larger;
+
+    box-sizing: border-box;
+    padding: 5%;
+    background-color: #ffcc00;
+    border-radius: 25px;
+    margin-right: 6%;
+    margin-top: 3%;
+
+    float: right;
+    width: 30%;
+}
+
+
+/* profiles section */
+#profilesDiv {
+    overflow: auto;
+    background-color: #e67300;
+    margin: 5%;
+    border-radius: 25px;
+}
+
+p {
+    color: white;
+}
+
+
+/* Favorites */
+#favorites {
+    background-color: black;
+    overflow: auto;
+}
+
+#favorites > h2 {
+    width: 100%;
+    text-align: center;
+    background-color: #ffcc00;
+    padding: 2%;
+}
+
+#favorites a {
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+
+/* Passed */
+#passedPage {
+    background-color: black;
+}
+
+#passedPage > h2 {
+    width: 100%;
+    text-align: center;
+    background-color: #e67300;
+    padding: 2%;
+}
+
+#passedPage a {
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}

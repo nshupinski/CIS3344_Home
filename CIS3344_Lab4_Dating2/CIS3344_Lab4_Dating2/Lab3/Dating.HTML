@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Hot Ones Dating</title>
+    <link rel="stylesheet" type="text/css" href="Lab3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="Member.JS"></script>
+    <script type="text/javascript" src="Lab3Script.JS"></script>
+    <script type="text/javascript" src="addProfiles.JS"></script>
+</head>
+<body>
+    <div class="box has-background-dark">
+        <nav class="level">
+            <div class="level-left">
+                <div class="level-item">
+                    <div class="columns">
+                        <div class="column">
+                            <button type="button" id="signUp" class="button is-light">Create New Account</button>
+                        </div>
+                        <div class="column">
+                            <button type="button" id="signIn" class="button is-dark">Sign In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="level-item">
+                    <a id="myProfileBtn" class="button is-right is-hidden is-danger" href="../Lab4/MyProfile/MyProfile.html"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="header">
+        <img src="images/hotones-background.png" alt="online dating" />
+    </div>
+
+    <div class="selectors">
+        <div class="genderSelect">
+            <label for="genders">Choose Your Prefered Gender:</label>
+            <select id="gender">
+                <option value="">--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="submit">
+            <button id="btnSubmit" onclick="gender_Changed()">Submit</button>
+        </div>
+        <div class="stateSelect">
+            <label>Enter State Abbreviation (or "Outside US"):</label>
+            <input type="text"
+                   id="stateSelectText"
+                   value="" />
+        </div>
+    </div>
+
+    <div id="profilesDiv">
+
+    </div>
+
+    <div id="favorites">
+        <a id="favoritesAnch"></a>
+        <h2>
+            Favorites <br>
+            <a href="../Lab4/Liked/Liked.html">Edit</a>
+        </h2>
+    </div>
+
+    <div id="passedPage">
+        <h2>
+            Passed <br>
+            <a href="../Lab4/Passed/Passed.html">Edit</a>
+        </h2>
+    </div>
+    <div class="container">
+        <div class="modal" id="add-modal">
+            <div class="modal-background">
+                <div class="modal-card">
+                    <header class="modal-card-head has-text-centered">
+                        <strong>Create a Member Account</strong>
+                    </header>
+                    <section class="modal-card-body">
+                        <div class="box">
+                            <article class="media">
+                                <div class="container has-text-centered">
+                                    <div class="content">
+                                        <p class="subtitle">
+                                            <strong>Name</strong>
+                                        </p>
+                                        <div class="content">
+                                            <input type="text" class="input" id="memberName" />
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <p class="subtitle">
+                                            <strong>Address</strong>
+                                        </p>
+                                        <div class="content">
+                                            <input type="text" class="input" id="memberAddress" />
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <p class="subtitle">
+                                            <strong>Phone Number</strong>
+                                        </p>
+                                        <div class="content">
+                                            <input type="text" class="input" id="memberPhone" />
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <p class="subtitle">
+                                            <strong>Email</strong>
+                                        </p>
+                                        <div class="content">
+                                            <input type="text" class="input" id="memberEmail" />
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <p class="subtitle">
+                                            <strong>Username</strong>
+                                        </p>
+                                        <div class="content">
+                                            <input type="text" class="input" id="memberUsername" />
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <p class="subtitle">
+                                            <strong>Password</strong>
+                                        </p>
+                                        <div class="content">
+                                            <input type="text" class="input" id="memberPassword" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <footer class="modal-card-foot" id="modal-foot">
+                        <button class="button is-success" id="createAccount">Create</button>
+                        <button class="button is-danger" id="cancel">Cancel</button>
+                    </footer>
+                </div>
+            </div>
+        </div> <!-- End of modal -->
+    </div>
+    <div class="container">
+        <div class="modal" id="signIn-modal">
+            <div class="modal-background">
+                <div class="modal-card">
+                    <header class="modal-card-head has-text-centered">
+                        <strong>Sign In</strong>
+                    </header>
+                    <section class="modal-card-body">
+                        <div class="box">
+                            <article class="media">
+                                <div class="container has-text-centered">
+                                    <div class="content">
+                                        <p class="subtitle">
+                                            <strong>Username</strong>
+                                        </p>
+                                        <div class="content">
+                                            <input type="text" class="input" id="verifyUsername" />
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <p class="subtitle">
+                                            <strong>Password</strong>
+                                        </p>
+                                        <div class="content">
+                                            <input type="text" class="input" id="verifyPassword" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <footer class="modal-card-foot" id="modal-foot">
+                        <button class="button is-success" id="verify">Sign In</button>
+                        <button class="button is-danger" id="cancel-signIn">Cancel</button>
+                    </footer>
+                </div>
+            </div>
+        </div> <!-- End of modal -->
+    </div>
+</body>
+</html>

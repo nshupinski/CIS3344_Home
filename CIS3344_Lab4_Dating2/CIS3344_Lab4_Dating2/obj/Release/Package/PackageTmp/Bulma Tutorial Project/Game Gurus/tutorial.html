@@ -1,0 +1,383 @@
+﻿<!DOCTYPE html>
+<html id="tutorial">
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script src="Scripts/scripts.js"></script>
+    <script src="Scripts/tutorialScripts.js"></script>
+    <link rel="icon" href="Images/icon.png">
+    <link rel="stylesheet" href="CSS/bulma.css">
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Gurus | Learn Bulma</title>
+</head>
+<body>
+    <section class="hero" id="navSection">
+        <div class="hero-head">
+            <nav class="navbar has-shadow" id="mainNav" role="navigation" aria-label="mainNavigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html"><img src="Images/icon.png" /></a>
+                    <h1 class="navbar-item" id="title">Game Gurus</h1>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="index.html">Home</a>
+                        <a class="navbar-item" href="myReviews.html">My Reviews</a>
+                        <a class="navbar-item" id="learn-bulma" href="tutorial.html">Learn Bulma</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="block">
+                <!--Example Page Section-->
+                <article class="message">
+                    <div class="message-header" id="whatsBulma">
+                        <p><font color="#00d1b2">Let's Make A Page With Bulma!</font></p>
+                    </div>
+                    <div class="message-body">
+                        <h5>
+                            By following this tutorial you will create a beautiful Bulma-made webpage and will use some of the most
+                            useful aspects that Bulma has to offer. Below is an image of the final product we will be creating in the
+                            sections below, as well as a link to the page for you to look around yourself <a href="TutorialExamplePage.html">here.</a>
+                        </h5>
+                        <div class="image">
+                            <img id="finishedPage1" src="Images/finishedPage-screenshot1.png" alt="Finished Bulma Page 1" />
+                            <img id="finishedPage2" src="Images/finishedPage-screenshot2.png" alt="Finished Bulma Page 2" />
+                        </div>
+                    </div>
+                </article>
+                <!--What is Bulma Section-->
+                <article class="message">
+                    <div class="message-header" id="whatsBulma">
+                        <p><font color="#00d1b2">What Is Bulma?</font></p>
+                    </div>
+                    <div class="message-body">
+                        <strong>Bulma is a free, open source CSS framework</strong> based on Flexbox (a layout model that allows
+                        elements to align and distribute space within a container). Bulma allows for easier web
+                        styling with the use of preset classes that are meaningfully named.
+                        <p style="margin-top: 1.5%;"><strong>Bulma's Advantages</strong></p>
+                        <div class="content">
+                            <ul>
+                                <li>Lightweight</li>
+                                <li>Easy to use</li>
+                                <li>Simple, intuitive syntax</li>
+                                <li>Mobile first, responsive design</li>
+                                <li>Highly customizable</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <br />
+                <!--Downloading Visual Studio Section-->
+                <article class="message">
+                    <div class="message-header" id="firstStep">
+                        <p><font color="#00d1b2">The First Step: Visual Studio - Setting Up Your Environment</font></p>
+                    </div>
+                    <div class="message-body">
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    To get started using Bulma, we first need an ide (Integrated Development Environment) to use
+                                    it in. Though many could support the Bulma framework, for this example we will be using
+                                    Visual Studio that can be downloaded for free
+                                    <a href="https://visualstudio.microsoft.com/downloads/" target="_blank"><i>here.</i></a>
+                                    <br /> <i>
+                                        - To make web applications, like in this example, you must select the
+                                        "ASP.NET and web development" package during installation.
+                                    </i>
+                                </li>
+                                <li>
+                                    Once installed, open Visual Studio and click <i>new.</i>
+                                </li>
+                                <li>
+                                    Then go to <i>Web</i> and select <i>ASP.NET Web Application (.Net Framework)</i>.
+                                </li>
+                                <li>
+                                    Finally, name your project and click <i>OK.</i>
+                                </li>
+                            </ul>
+                            <h6>
+                                Your new project should then open up and your screen should look like the image below. From there just select File -> New File -> (Go to <i>Web</i>) Empty HTML File, and name it index.html.
+                            </h6>
+                        </div>
+                        <div class="image" id="VSStartup">
+                            <img src="Images/vs start.png" alt="Visual Studio Start Screen" />
+                        </div>
+                    </div>
+                </article>
+                <!--Installing Bulma Section-->
+                <article class="message">
+                    <div class="message-header" id="startBulma">
+                        <p><font color="#00d1b2">Getting Bulma Ready To Use</font></p>
+                    </div>
+                    <div class="message-body">
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    This part is very easy and has multiple options. To install Bulma, you can go to their website
+                                    <a href="https://bulma.io/documentation/overview/start/" target="_blank">here</a> to see the different options,
+                                    but for us we can make it even simpler. Taken from the Bulma website, you can simply copy the line below and paste it in your document
+                                    somewhere inside the
+                                    <i>head</i> tag.
+                                    <i>(See image below)</i>
+                                    <br><br>
+                                    &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm
+                                    /bulma@0.8.0/css/bulma.min.css"&gt;
+                                </li>
+                            </ul>
+                            <h6>
+                                <br>
+                                After this simple paste, Bulma will now work in your project by retrieving the framework css files via the internet.
+                            </h6>
+                        </div>
+                        <div class="image">
+                            <img src="Images/insert-stylesheet-screenshot.png" alt="Insert Bulma Code" />
+                        </div>
+                    </div>
+                </article>
+                <!--Hero Section-->
+                <article class="message">
+                    <div class="message-header" id="usingBulma">
+                        <p><font color="#00d1b2">Using Bulma To Build A Page</font></p>
+                    </div>
+                    <div class="message-body">
+                        <div class="content">
+                            To start our page, we'll create the header. This can be done by using the <strong>hero section </strong>plus its inner classes. Follow the steps below to get started.
+                            <ul>
+                                <li>
+                                    First we start with a section, and because Bulma works completely through class names, the class name of this section will be "hero".
+                                    <br><i>-Note:</i> To change the header background color, after class name "hero", add the "is-" modifier and add a keyword from dropbox below.
+                                </li>
+                                <li>
+                                    Within that section, we will create one &lt;div&gt; with class name "hero-body", a &lt;div&gt; within that with class name "container",
+                                    and an &lt;h1&gt; tag within that with class name "title". Within that &lt;h1&gt; tag you can write what you would like the header to say.
+                                </li>
+                                <li>
+                                    To create a subtitle, put an &lt;h2&gt; tag after the &lt;h1&gt; tag with class name "subtitle" and its name within that.
+                                </li>
+                            </ul>
+                            <p>
+                                <br>Select a different background keyword to see its resulting color:
+                                <div class="control" style="padding: 3%; padding-left: 0;">
+                                    <div class="select">
+                                        <select id="colorPicked">
+                                            <option>is-success</option>
+                                            <option>is-primary</option>
+                                            <option>is-info</option>
+                                            <option>is-warning</option>
+                                            <option>is-danger</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </p>
+                            <div class="container" style="padding-bottom: 3%;">
+                                <section class="hero is-success" id="displayHeader" style="border-radius: 4px;">
+                                    <div class="hero-body">
+                                        <div class="container">
+                                            <h1 class="title">
+                                                Primary title
+                                            </h1>
+                                            <h2 class="subtitle">
+                                                Primary subtitle
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <h6 class="pic-caption"><br>The image below shows the code to create a basic "hero" page header.</h6>
+                        </div>
+                        <div class="image">
+                            <img src="Images/bulma-header-screenshot.png" alt="Insert Bulma header" />
+                        </div>
+                    </div>
+                </article>
+                <!--Nav Section-->
+                <article class="message">
+                    <div class="message-header" id="startBulma">
+                        <p><font color="#00d1b2">Creating The Navigation Bar</font></p>
+                    </div>
+                    <div class="message-body">
+                        <div class="content">
+                            The next part of the page we are going to work on is the navigation bar. Since we dove more into the
+                            code in the last section, this one is merely going to touch on a couple key aspects from the given
+                            example code. Note that this code was added before the previously written code to be placed above the hero
+                            section but, like many of the aspects in this tutorial, this is up to you to decide how you would like to
+                            display it.
+                            <ul>
+                                <li>
+                                    Starting with a "navbar" class, the first &lt;div&gt; adds the bulma logo image to the navbar.
+                                    There are two things to note in this section: First is the use of the anchor tag &lt;a&gt;, making the
+                                    image itself a link to a website by using the "href" keyword. (Though not necessary, it's a great example of attaching links)
+                                    Second is the use of the &lt;img&gt; which of course is used for images by making its src (source)
+                                    attribute a link to an image on the internet.
+                                </li>
+                                <li>
+                                    The next section starting with the "navbar-menu" classed &lt;div&gt; has a "navbar-start" classed &lt;div&gt; within it
+                                    which indicates that the following items will be on the left side of the navigation bar. As seen by the comments
+                                    (&lt;!----&gt;) in the example code, there is a "Home", "Documentation", and "More" button (with the "more" button
+                                    containing a dropdown section with more buttons).
+                                </li>
+                                <li>
+                                    Finally, to conclude our navigation bar, there is a "navbar-end" classed &lt;div&gt; which indicates that
+                                    the following items will be on the right of the navigation bar. Within that is the code creating two buttons
+                                    that could be given functionality some other time. Though all of the items created in the navbar are used like buttons,
+                                    by using the "button" class notation, they are styled by Bulma to be made to look more like classic buttons.
+                                </li>
+                            </ul>
+                            <h6>
+                                <br>
+                                After entering the example code shown below, you should have a beautiful navigation bar on your webpage.
+                            </h6>
+                        </div>
+                        <div class="image">
+                            <img src="Images/BulmaNavbar-screenshot.png" alt="Insert Bulma Navbar" style="border-radius: 6px;" />
+                            <p class="pic-caption">See code below to create this navigation system layout</p>
+                            <img src="Images/navbarCode-screenshot1.png" style="margin-bottom: 0; border-radius: 6px 6px 0px 0px;" alt="Insert Bulma Navbar Code1" style="border-radius: 6px;" />
+                            <img src="Images/navbarCode-screenshot2.png" style="margin-top: 0; border-radius: 0px 0px 6px 6px;" alt="Insert Bulma Navbar Code2" style="border-radius: 6px;" />
+                        </div>
+                    </div>
+                </article>
+                <!--Columns Section-->
+                <article class="message">
+                    <div class="message-header" id="startBulma">
+                        <p><font color="#00d1b2">Making Media Objects In Columns</font></p>
+                    </div>
+                    <div class="message-body">
+                        <div class="content">
+                            In this section we will be making the body of our webpage where the main content would be held.
+                            In our example we will simply be making something resembling a post or profile-like section
+                            of content.This section contains new items such as a box, columns, messages, and media, all of which will
+                            be highlighted in the bullets below.
+                            <ul>
+                                <li>
+                                    The first thing to note in this new section of code is the "box" class. This very simply adds space
+                                    and an aesthetic shadow around the section you are about to put content in.
+                                </li>
+                                <li>
+                                    Next is possibly the most important aspect of this section - the columns. Starting with the columns class
+                                    (accompanied by "is-variable" and "is-7" which simply increse the spacing between the columns) and then the
+                                    "column" class (singular - no "s") which indicates a new column within the "columns" &lt;div&gt;.
+                                </li>
+                                <li>
+                                    Next is the "message" class which just a section for content to go which can be accompanied by things like a
+                                    "message-header" as seen in the example code. For this example, you can see that the header content was actually
+                                    made an image to fit the desired design. When placed in the columns, these messages will automatically
+                                    space themselves horizontally in the page.
+                                </li>
+                                <li>
+                                    A few lines down you can see the next point of interest - the "media" class. This media class allows for a
+                                    social media post-like layout with inner classes such as "media-left", a great place off to the left of the main
+                                    content for a profile picture. Inside the "media-content" and then "content" &lt;div&gt; is where we put a
+                                    &lt;p&gt; (paragraph) element containing a random name, username and post time. The inner "Lorem ipsum" text is
+                                    simply filler. To create more columns simply repeat this code.
+                                </li>
+                            </ul>
+                            <h6>
+                                <br>
+                                Our page is looking great and is almost finished!
+                            </h6>
+                        </div>
+                        <div class="image">
+                            <img src="Images/bodyExamplePage-screenshot.png" alt="Body Page" style="border-radius: 6px;" />
+                            <p class="pic-caption">See code below to create this body layout</p>
+                            <img src="Images/columnCode-screenshot.png" style="margin-bottom: 0; border-radius: 6px 6px 0px 0px;" alt="Body Code" style="border-radius: 6px;" />
+                        </div>
+                    </div>
+                </article>
+                <!--Pagination Section-->
+                <article class="message">
+                    <div class="message-header" id="startBulma">
+                        <p><font color="#00d1b2">Making A Page Navigator</font></p>
+                    </div>
+                    <div class="message-body">
+                        <div class="content">
+                            Here we will work on a very simple and easy pagination section so that users could navigate to the next or previous
+                            page of a list of content pages. <br /><i>
+                                - Note that this code was added at the end inside of the "box" &lt;div&gt; which is complete preference
+                                and has no effect on functionality.
+                            </i>
+                            <ul>
+                                <li>
+                                    We start with the "pagination is-centered" &lt;div&gt;. The addition of the "is-centered" not only centers the page numbers,
+                                    but also moved the "previous" button that we will make later to the left rather than having the "previous" and "Next Page"
+                                    buttons both on the right side.
+                                </li>
+                                <li>
+                                    In the &lt;a&gt; (anchor tag) you can see that because we are on the first page, the "previous" button is "disabled"
+                                    which means that Bulma auto-styles it as greyed-out. This is then followed by the creation of the "Next page" button by using
+                                    the class "pagination-next".
+                                </li>
+                                <li>
+                                    The following section is started with a &lt;ul&gt; (unordered list) tag with the "pagination-list" class which is where the page numbers will be added manually.
+                                    Then, for each page number a &lt;li&gt; (list item) tag is make with the "pagination-link" class.
+                                </li>
+                            </ul>
+                            <h6>
+                                <br>
+                                Only one more section to go!
+                            </h6>
+                        </div>
+                        <div class="image">
+                            <img src="Images/paginationPageCloseUp-screenshot.png" alt="Pagination Page Close-Up" style="border-radius: 6px;" />
+                            <img src="Images/paginationPage-screenshot.png" alt="Pagination Page" style="border-radius: 6px;" />
+                            <p class="pic-caption">See code below to create this body layout</p>
+                            <img src="Images/pagination-screenshot.png" style="margin-bottom: 0; border-radius: 6px 6px 0px 0px;" alt="Pagination Code" style="border-radius: 6px;" />
+                        </div>
+                    </div>
+                </article>
+                <!--Footer Section-->
+                <article class="message">
+                    <div class="message-header" id="startBulma">
+                        <p><font color="#00d1b2">Making A Footer - Like Every Good Website Has</font></p>
+                    </div>
+                    <div class="message-body">
+                        <div class="content">
+                            Lets finish up this page with a good looking footer, shall we?
+                            <ul>
+                                <li>
+                                    We'll start this footer with, of course, a &lt;footer&gt; tag with class "footer".
+                                </li>
+                                <li>
+                                    Next is a &lt;div&gt; with class "content" with an additional modification of "has-text-centered".
+                                </li>
+                                <li>
+                                    Inside of that is a &lt;p&gt; (paragraph) tag containing whatever you'd like. In this case, it contains
+                                    some text with a link to a website.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="image">
+                            <img src="Images/footerPageCloseUp-screenshot.png" alt="Pagination Page Close-Up" style="border-radius: 6px;" />
+                            <img src="Images/footerPage-screenshot.png" alt="Pagination Page" style="border-radius: 6px;" />
+                            <p class="pic-caption">See code below to create this body layout</p>
+                            <img src="Images/footerCode-screenshot.png" style="margin-bottom: 0; border-radius: 6px 6px 0px 0px;" alt="Pagination Code" style="border-radius: 6px;" />
+                        </div>
+                        <h5>
+                            <br />
+                            <br />
+                            <br />
+                            <strong>Congratulations!</strong> You've completed our Bulma tutorial and now have not only a beautiful looking webpage, but also a better understanding
+                            of how to use the Bulma CSS framework in your own webpages. What was highlighted here in this tutorial was only very few of the many pre-made classes
+                            and components that Bulma contains to make page layout and styling a breeze!
+                        </h5>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <h4 class="title"><img src="Images/icon.png" style="height: 20px; width: 20px; margin-right: 0.7%; position:relative; bottom:-3px;" />Thanks for learning about Bulma!</h4>
+            <p>To learn more about the Bulma CSS framework, visit <a href="https://bulma.io/">their website!</a></p>
+        </div>
+    </footer>
+</body>
+</html>

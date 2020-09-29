@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html id="myReviews">
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/moment.js"></script>
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script src="Scripts/game.js"></script>
+    <script src="Scripts/review.js"></script>
+    <script src="Scripts/scripts.js"></script>
+    <link rel="icon" href="Images/icon.png">
+    <link rel="stylesheet" href="CSS/bulma.css">
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Gurus | My Reviews</title>
+</head>
+<body>
+    <section class="hero is-large" id="navSection">
+        <div class="hero-head">
+            <nav class="navbar has-shadow" id="mainNav" role="navigation" aria-label="mainNavigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html"><img src="Images/icon.png" /></a>
+                    <h1 class="navbar-item" id="title">Game Gurus</h1>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="index.html">Home</a>
+                        <a class="navbar-item" href="myReviews.html">My Reviews</a>
+                        <a class="navbar-item" id="learn-bulma" href="tutorial.html">Learn Bulma</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="columns">
+                <div class="column" id="hero-body-title">
+                    <h1 class="title has-text-centered" id="hero-title-2">Gauge your game critique expertise, after all, you're the critic here!</h1>
+                </div>
+                <div class="column" id="hero-body-review">
+                    <div class='card review-card' id='review-card'>
+                        <div class='card-content' style='padding-top:5%;'>
+                            <div class='media'>
+                                <div class='media-left'>
+                                    <figure class='image is-96x96 is-square'><img src="https://cdn.vox-cdn.com/thumbor/dqTjvoLRZ68reRTvFwbYd5amV88=/0x0:1440x803/1400x1400/filters:focal(605x287:835x517):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/53291693/Screen_Shot_2017_02_16_at_3.33.17_PM.0.png"></figure>
+                                </div>
+                                <div class='media-content' style='height:100%;margin:auto;'>
+                                    <p class='title is-4' style='width:100%;margin-bottom:0;'>GamerKing68</p>
+                                    <p><span class='subtitle is-6'>April 1st, 2020</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='card-content' style='padding-top:0;'>
+
+                            <p class='title is-6' style='margin-top:0.5rem;width:78%;float:left;'>Call of Doody: Idiot Warfare</p>
+                            <button class='button is-success + color + " review-rating' style='margin:0;'>10</button>
+                            <p style='clear:both;'>
+                                "Call of Doody: Idiot Warfare is the most spectacular game I have ever played to date,
+                                I just love what Blizzard has done with the lootboxes in this game!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        
+
+    </section>
+    <section class="section" id="username-section">
+        <h1 class="subtitle is-4 has-text-centered">Enter your username and click GO!<br />(User accounts coming, maybe...)</h1>
+        <div class="container" id="enter-username">
+            <div class="field has-addons">
+                <div class="control">
+                    <input class="input" id="username-input" type="text" placeholder="Username" />
+                </div>
+                <div class="control is-centered">
+                    <button class="button is-danger" id="button-go">GO!</button>
+                </div>
+            </div>
+            <p class="help is-danger has-text-centered" id="go-help"></p>
+        </div>
+    </section>
+    <div class="container" id="review-section" style="margin:0;max-width:100%;">
+    </div>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <h4 class="title"><img src="Images/icon.png" style="height: 20px; width: 20px; margin-right: 0.7%; position:relative; bottom:-3px;"/>Game Gurus Copyright 2020</h4>
+            <p>To learn more about the Bulma CSS framework, visit <a href="https://bulma.io/">their website!</a></p>
+        </div>
+    </footer>
+</body>
+</html>

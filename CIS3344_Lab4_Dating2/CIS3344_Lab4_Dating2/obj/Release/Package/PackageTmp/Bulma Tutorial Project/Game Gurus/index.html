@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+<html id="index">
+<head>
+    <meta charset="utf-8" />
+    <script src="Scripts/moment.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script src="Scripts/game.js"></script>
+    <script src="Scripts/review.js"></script>
+    <script src="Scripts/scripts.js"></script>
+    <link rel="icon" href="Images/icon.png">
+    <link rel="stylesheet" href="CSS/bulma.css">
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Gurus | Home</title>
+</head>
+<body>
+    <section class="hero is-large" id="navSection">
+        <div class="hero-head">
+            <nav class="navbar has-shadow" id="mainNav" role="navigation" aria-label="mainNavigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html"><img src="Images/icon.png" /></a>
+                    <h1 class="navbar-item" id="title">Game Gurus</h1>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item" href="index.html">Home</a>
+                        <a class="navbar-item" href="myReviews.html">My Reviews</a>
+                        <a class="navbar-item" id="learn-bulma" href="tutorial.html">Learn Bulma</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="columns">
+                <div class="column has-text-left" id="hero-body-title">
+                    <h1 class="title" id="hero-title">Game reviews, written by gamers, for gamers. Absolutely NO critics!</h1>
+                </div>
+                <div class="column has-text-centered" id="hero-body-review">
+                    <article class="message is-medium" style="max-width: 520px; margin:auto;">
+                        <div class="message-header">
+                            <p><font color="#00d1b2">Review</font></p>
+                        </div>
+                        <div class="message-body has-text-left">
+                            <p class="is-medium">This game is <i>fantastic!</i> I have not played anything like it before, I highly recommend it to anyone who's considering a play through. <strong>JUST PLAY IT!!</strong></p>
+                            <br /><p><strong>-- Average Gamer</strong></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="filterSection">
+        <div class="container">
+            <h1 class="title has-text-centered" id="ttlFeaturedGames">Featured Games</h1>
+        </div>
+        <div class="container" id="game-filters">
+            <div class="columns" id="filter-columns">
+                <div class="column filter-column">
+                    <div class="container filter-title">
+                        <h1 class="subtitle">Genre</h1>
+                    </div>
+                    <div class="container filter-title">
+                        <div class="select">
+                            <select class="game-filter" id="filter-genre">
+                                <option value="All" selected>All</option>
+                                <option value="First Person Shooter">First Person Shooter</option>
+                                <option value="Action Role-Playing">Action Role-Playing</option>
+                                <option value="Action Adventure">Action Adventure</option>
+                                <option value="Fighting">Fighting</option>
+                                <option value="Simulation">Simulation</option>
+                                <option value="Sandbox">Sandbox</option>
+                                <option value="Survival">Survival</option>
+                                <option value="Racing">Racing</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="column filter-column">
+                    <div class="container filter-title">
+                        <h1 class="subtitle">Rating</h1>
+                    </div>
+                    <div class="container filter-title">
+                        <div class="select">
+                            <select class="game-filter" id="filter-rating">
+                                <option value="All" selected>All</option>
+                                <option value="M (Mature)">M (Mature)</option>
+                                <option value="T (Teen)">T (Teen)</option>
+                                <option value="E10+ (Everyone 10+)">E10+ (Everyone 10+)</option>
+                                <option value="E (Everyone)">E (Everyone)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="column filter-column">
+                    <div class="container filter-title">
+                        <h1 class="subtitle">Year</h1>
+                    </div>
+                    <div class="container filter-title">
+                        <div class="select">
+                            <select class="game-filter" id="filter-year">
+                                <option value="All" selected>All</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2009">2009</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="gameSection">
+        <div class="container" id="gameContainer">
+        </div>
+    </section>
+    <section class="section" id="game-suggestion">
+        <h1 class="title is-2 has-text-centered">Shape the future of Game Gurus!</h1>
+        <h1 class="subtitle is-5 has-text-centered is-bold" style="padding:1%;padding-bottom: 2%;">Suggest a new game</h1>
+        <form class="form-horizontal" id="suggest-form">
+            <fieldset>
+                <!-- Text input-->
+                <div class="field">
+                    <div class="control">
+                        <input id="suggestion-title" name="textinput-0" type="text" placeholder="Game Title" class="input ">
+                    </div>
+                </div>
+                <!-- Prepended text-->
+                <div class="field has-addons" id="suggest-date">
+                    <div class="control">
+                        <a class="button is-static" style="background-color:#f03a5f;color:white;">
+                            MM/DD/YYYY
+                        </a>
+                    </div>
+                    <div class="control">
+                        <input id="suggestion-date" name="prependedtext-1" class="input " type="text" placeholder="Release Date">
+                    </div>
+                </div>
+                <!-- Textarea -->
+                <div class="field">
+                    <div class="control">
+                        <textarea class="textarea" id="suggestion-additional" name="textarea-0" placeholder="Additional Info"></textarea>
+                    </div>
+                </div>
+                <p class="help is-danger" id="suggestion-help"></p>
+                <!-- Button -->
+                <div class="field">
+                    <div class="control">
+                        <div class="container" id="suggest-submit-container">
+                            <button type="button" id="suggest-submit" class="button is-danger is-centered">Submit</button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <div class="container">
+        <div class="modal" id="add-modal">
+            <div class="modal-background">
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title" id="titleText"></p>
+                    </header>
+                    <section class="modal-card-body">
+                        <div class="box">
+                            <article class="media">
+                                <div class="container has-text-centered">
+                                    <div class="content">
+                                        <div class="container">
+                                            <p class="subtitle">
+                                                <strong>Rating</strong>
+                                            </p>
+                                        </div>
+                                        <div class="content">
+                                            <div class="select" id="div-rating">
+                                                <select id="review-rating">
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                    <option value="6">6</option>
+                                                    <option value="7">7</option>
+                                                    <option value="8">8</option>
+                                                    <option value="9">9</option>
+                                                    <option value="10">10</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="content">
+                                            <p class="subtitle">
+                                                <strong>Username</strong>
+                                            </p>
+                                        </div>
+                                        <div class="content">
+                                            <input type="text" class="input" id="review-user" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <textarea class="textarea is-medium is-hovered is-light" id="review-content" placeholder="Review"></textarea>
+                        <p class="help is-hidden is-danger" id="add-review-help" style="padding-top: 1%"></p>
+                    </section>
+                    <footer class="modal-card-foot" id="modal-foot">
+                        <button class="button is-primary" id="add-review">Add Review</button>
+                        <button class="button is-danger" id="cancel">Cancel</button>
+                    </footer>
+                </div>
+            </div>
+        </div> <!-- End of modal -->
+    </div>
+    <div class="container">
+        <div class="modal" id="review-modal">
+            <div class="modal-background">
+                <div class="modal-card">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title" id="review-titleText"></p>
+                    </header>
+                    <section class="modal-card-body">
+                        <div id="review-ImageDiv">
+                            <figure class="image is-square">
+                                <img id="review-Image" />
+                            </figure>
+                        </div>
+                        <div class="box">
+                            <article class="media">
+                                <div class="media-content" id="displayReviews">
+                                    <!--
+                                    <div class="content">
+                                        <p>
+                                            <strong id="review-userId">John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                                            <br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                                        </p>
+                                    </div>
+                                    <nav class="level is-mobile">
+                                        <div class="level-left">
+                                            <a class="level-item" aria-label="reply">
+                                                <span class="icon is-small">
+                                                    <i class="fas fa-reply" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                            <a class="level-item" aria-label="retweet">
+                                                <span class="icon is-small">
+                                                    <i class="fas fa-retweet" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                            <a class="level-item" aria-label="like">
+                                                <span class="icon is-small">
+                                                    <i class="fas fa-heart" aria-hidden="true"></i>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </nav>
+                                    -->
+                                </div>
+                            </article>
+                        </div>
+                        <p class="help is-hidden is-danger" id="add-review-help" style="padding-top: 1%"></p>
+                    </section>
+                    <footer class="modal-card-foot" id="modal-foot">
+                        <button class="button is-danger" id="btnClose">Close</button>
+                    </footer>
+                </div>
+            </div>
+        </div> <!-- End of modal -->
+    </div>
+    <footer class="footer" id="index-footer">
+        <div class="content has-text-centered">
+            <h4 class="title"><img src="Images/icon.png" style="height: 20px; width: 20px; margin-right: 0.7%; position:relative; bottom:-3px;" />Game Gurus Copyright 2020</h4>
+            <p>To learn more about the Bulma CSS framework, visit <a href="https://bulma.io/">their website!</a></p>
+        </div>
+    </footer>
+</body>
+</html>

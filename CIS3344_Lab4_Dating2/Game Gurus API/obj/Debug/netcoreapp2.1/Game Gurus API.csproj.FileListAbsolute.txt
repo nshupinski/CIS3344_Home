@@ -1,0 +1,14 @@
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\bin\Debug\netcoreapp2.1\Game Gurus API.deps.json
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\bin\Debug\netcoreapp2.1\Game Gurus API.runtimeconfig.json
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\bin\Debug\netcoreapp2.1\Game Gurus API.runtimeconfig.dev.json
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\bin\Debug\netcoreapp2.1\Game Gurus API.dll
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\bin\Debug\netcoreapp2.1\Game Gurus API.pdb
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\obj\Debug\netcoreapp2.1\Game Gurus API.csprojAssemblyReference.cache
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\obj\Debug\netcoreapp2.1\Game Gurus API.csproj.CoreCompileInputs.cache
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\obj\Debug\netcoreapp2.1\Game Gurus API.RazorAssemblyInfo.cache
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\obj\Debug\netcoreapp2.1\Game Gurus API.RazorAssemblyInfo.cs
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\obj\Debug\netcoreapp2.1\Game Gurus API.AssemblyInfoInputs.cache
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\obj\Debug\netcoreapp2.1\Game Gurus API.AssemblyInfo.cs
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\obj\Debug\netcoreapp2.1\Game Gurus API.RazorTargetAssemblyInfo.cache
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\obj\Debug\netcoreapp2.1\Game Gurus API.dll
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\Game Gurus API\obj\Debug\netcoreapp2.1\Game Gurus API.pdb

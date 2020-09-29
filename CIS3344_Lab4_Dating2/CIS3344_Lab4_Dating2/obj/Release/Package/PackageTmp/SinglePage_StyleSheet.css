@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/razer_background.jpg");
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Navigation System*/
+
+.navbar {
+    overflow: auto;
+    background-color: #171414;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 16%;
+}
+
+
+/*Landing Page*/
+
+.landing {
+    /*position: relative;*/
+}
+
+img {
+    max-width: 100%;
+    /*position: relative;
+    top: 0;*/
+}
+
+.image {
+    display: block;
+}
+
+.landing h1 {
+    text-align: center;
+    background-color: #171414;
+    color: lightgrey;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.landing h2 {
+    text-align: center;
+    background-color: #171414;
+    color: #008066;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.description {
+    margin-bottom: 40px;
+    margin-top: -5px;
+}
+
+
+
+/*Info Page*/
+
+.info {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #171414;
+    overflow: auto;
+}
+
+.middle {
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    padding: 2%;
+}
+
+.Left {
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    padding: 2%;
+}
+
+.Right {
+    box-sizing: border-box;
+    width: 33%;
+    float: left;
+    padding: 2%;
+}
+
+.info h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.info h3 {
+    color: white;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+
+/*Form Page*/
+
+.container {
+    overflow-x: auto;
+}
+
+.form {
+    margin: 5%;
+    padding-top: 2%;
+    background-color: #008066;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 4px;
+}
+
+input[type="radio"] {
+    margin-bottom: 30px;
+}
+
+td[]
+
+
+/*Gallery*/
+
+.gallery {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    background-color: #171414;
+    overflow: auto;
+}
+
+.gallery img {
+    margin: 1%;
+}
+
+.gallery h4 {
+    color: #008066;
+    text-align: center;
+}
+
+.gallery div {
+    float: left;
+    max-width: 33%;
+}
+
+/*Footer*/
+
+.footer {
+    text-align: center;
+    padding: 12px;
+    margin-top: 40px;
+    background-color: grey;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /*Landing*/
+    .landing h1 {
+        font-size: 30px;
+        padding-bottom: 5%;
+    }
+
+    .landing h2 {
+        font-size: 20px;
+    }
+
+
+    /*info*/
+    .Left{
+        width: 100%;
+    }
+
+    .middle {
+        width: 100%;
+    }
+
+    .Right {
+        width: 100%;
+    }
+
+
+    /*Form*/
+    td {
+        display: block;
+    }
+
+
+    /*Gallery*/
+   .gallery .mercury {
+        max-width: 98%;
+    }
+    .gallery .pink {
+        max-width: 98%;
+    }
+    .gallery .black {
+        max-width: 98%;
+    }
+    .gallery .chroma {
+        max-width: 98%;
+    }
+    .gallery .design {
+        max-width: 98%;
+    }
+    .gallery .lucio {
+        max-width: 98%;
+    }
+
+
+    /*Navbar*/
+    .navbar a {
+        width: 100%;
+        text-align: left;
+    }
+}

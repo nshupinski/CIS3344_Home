@@ -1,0 +1,14 @@
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\bin\Debug\netcoreapp2.1\API Project.deps.json
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\bin\Debug\netcoreapp2.1\API Project.runtimeconfig.json
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\bin\Debug\netcoreapp2.1\API Project.runtimeconfig.dev.json
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\bin\Debug\netcoreapp2.1\API Project.dll
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\obj\Debug\netcoreapp2.1\API Project.csprojAssemblyReference.cache
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\obj\Debug\netcoreapp2.1\API Project.csproj.CoreCompileInputs.cache
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\obj\Debug\netcoreapp2.1\API Project.RazorAssemblyInfo.cache
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\obj\Debug\netcoreapp2.1\API Project.RazorAssemblyInfo.cs
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\obj\Debug\netcoreapp2.1\API Project.AssemblyInfoInputs.cache
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\obj\Debug\netcoreapp2.1\API Project.AssemblyInfo.cs
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\obj\Debug\netcoreapp2.1\API Project.RazorTargetAssemblyInfo.cache
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\bin\Debug\netcoreapp2.1\API Project.pdb
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\obj\Debug\netcoreapp2.1\API Project.dll
+C:\Users\Ding Dong Football\source\repos\CIS3344_Lab4_Dating2\API Project\obj\Debug\netcoreapp2.1\API Project.pdb

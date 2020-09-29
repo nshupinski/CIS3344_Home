@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Razer</title>
+    <link rel="stylesheet" type="text/css" href="SinglePage_StyleSheet.css">
+
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#infoAnchor">Info</a>
+        <a href="#formAnchor">Form</a>
+        <a href="#galleryAnchor">Photos</a>
+    </div>
+
+
+
+    <div class="mainSection">
+        <div class="landing">
+                                <!--Landing Page-->
+            <div class="image">
+                 <img src="images/razer_logo.jpg" alt="razer" />
+            </div>
+        <div class="description">
+            <h1>RAZER<br />BY GAMERS FOR GAMERS</h1>
+            <h2>
+                Become a better gamer by using the fastest and most reliable devices made custom to fit your needs.
+            </h2>
+        </div>
+    </div>
+
+
+        <div class="info">
+                                <!--Info Page-->
+            <div class="Left">
+                <a id="infoAnchor">     <!--Anchor-->
+                    <h2>KRAKEN X</h2>
+                </a>
+                    <img src="images/razer_headset.jpg" alt="razer headset" />
+                    <h3>
+                        The Razer Kraken X is the perfect surround sound headset to fully immerse you in any and all activities.
+                        The soft foam cups allow you to experince the full sound and bass of an action game or the soft intriacies
+                        of an orchestra;
+                    </h3>
+            </div>
+            <div class="Right">
+                <h2>BLACKWIDOW</h2>
+                <img src="images/razer_keyboard.jpg" alt="razer keyboard" />
+                <h3>
+                    The Razer Blackwidow is a sturdy, tactile and weighted keyboard that ensures the purest satisfaction
+                    with every click. Decide between the green, orange or yellow switches for your own personal preference.
+                </h3>
+            </div>
+            <div class="middle">
+                <h2>VIPER ULTIMATE</h2>
+                <img src="images/razer_mouse.jpg" alt="razer" />
+                <h3>
+                    The Viper Ultimate is one of the highest ranked gaming mice on the market today. It's light weight body,
+                    plethera of customizable switches and ultra low response time makes the Viper Ultimate a tournament-level
+                    gaming mouse.
+                </h3>
+            </div>
+        </div>
+
+                              <!--Form Page-->
+        <div class="form">
+            <a id="formAnchor"/>
+            <form id=“form1” method="post" action=“http://cis-iis2.temple.edu/users/pascucci/cis3342/FormProcessor.aspx?mail =tua12345@temple.edu” />
+            <div class="container">
+                <table>
+                    <tr>
+                        <td>Full Name</td>  <!--Text Boxes-->
+                        <td><input type="text" name="Full Name" size="50" required /></td>
+
+                        <td>Age</td>
+                        <td><input type="text" name="Age" required/></td>
+
+                        <td>Email</td>
+                        <td><input type="text" name="Email" size="50" required/></td>
+                    </tr>
+                  
+                    <tr>
+                        <td>    <!--Radio Buttons-->
+                            <input type="radio" id="Registered User" name="rad" value="registered">
+                            <label for="registered">Registered User</label><br>
+
+                            <input type="radio" id="Shopped Here Before" name="rad" value="shopped">
+                            <label for="shopped">Shopped Here Before</label><br>
+
+                            <input type="radio" id="New Shopper" name="rad" value="new">
+                            <label for="new">New Shopper</label>
+                        </td>
+
+                        <td>    <!--Check Boxes-->
+                            <h4>Which product from above would you like to have?</h4>
+                            <input type="checkbox" id="kraken" name="kraken" value="kraken" checked>
+                            <label for="kraken">Kraken X</label>
+
+                            <input type="checkbox" id="widow" name="widow" value="widow" checked>
+                            <label for="widow">Blackwidow</label>
+
+                            <input type="checkbox" id="viper" name="viper" value="viper" checked>
+                            <label for="viper">Viper Ultimate</label>
+                        </td>
+
+                        <td>    <!--Color Picker-->
+                            <h4>What color do you want your item(s)?</h4>
+                            <input type="color" id="favcolor" name="favcolor" value="#ff0000" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!--Select List-->
+                            <h4>Select your protection plan</h4>
+                            <select id="plan" name="plan">
+                                <option value="platinum">Platinum</option>
+                                <option value="Gold">Gold</option>
+                                <option value="Silver">Silver</option>
+                                <option value="Bonze">Bronze</option>
+                            </select>
+                        </td>
+                        <td>
+                            <!--Select List-->
+                            <h4>What other gaming brands have you bought from?</h4>
+                            <select id="plan" name="plan">
+                                <option value="Logitech">Logitech</option>
+                                <option value="Corsair">Corsair/option>
+                                <option value="Steel Series">Steel Series</option>
+                                <option value="Lenovo">Lenovo</option>
+                            </select>
+                        </td>
+                        <td>
+                        <td>
+                            <!--Radio Buttons-->
+                            <h4>Will you buy Razer again?</h4>
+                            <input type="radio" id="Yes" name="yesno" value="yes">
+                            <label for="yes">Yes</label><br>
+
+                            <input type="radio" id="No" name="yesno" value="no">
+                            <label for="no">No</label><br>
+                        </td>
+                        <td>
+                            <!--Check Boxes-->
+                            <h4>Why do you buy Razer?</h4>
+                            <input type="checkbox" id="kraken" name="kraken" value="kraken" checked>
+                            <label for="kraken">The Speed</label>
+
+                            <input type="checkbox" id="widow" name="widow" value="widow" checked>
+                            <label for="widow">The Solid Manufacturing</label>
+
+                            <input type="checkbox" id="viper" name="viper" value="viper" checked>
+                            <label for="viper">The Flashy Design</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Submit">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+        <div class="gallery">    <!--Gallery-->
+            <div class="mercury">
+                <a id="galleryAnchor" /> <!--Anchor-->
+                <img src="images/razer_mercury.jpg" alt="razer mercury" />
+                <h4>The Razer Mercury Collection for a classy, clean look</h4>
+            </div>
+            <div class="pink">
+                <img src="images/razer_pink.jpg" alt="razer quartz" />
+                <h4>The Razer Quartz Collection to stand out</h4>
+            </div>
+            <div class="black">
+                <img src="images/razer_black.jpg" alt="razer black" />
+                <h4>The Razer Classic Black Collection</h4>
+            </div>
+            <div class="chroma">
+                <img src="images/razer_chroma.jpg" alt="razer chroma" />
+                <h4>Razer Chroma in action, displaying a realm of colors</h4>
+            </div>
+            <div class="design">
+                <img src="images/razer_design.jpg" alt="razer synapse" />
+                <h4>Razer Synapse 3 - where custom LED designs are made</h4>
+            </div>
+            <div class="lucio">
+                <img src="images/razer_lucio.jpg" alt="razer lucio" />
+                <h4>Get your own custom Razer gear for your favorite games</h4>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <h4>Nicholas Shupinski ~ tuj77546@temple.edu</h4>
+        </div>
+    </div>
+     
+</body>
+</html>
