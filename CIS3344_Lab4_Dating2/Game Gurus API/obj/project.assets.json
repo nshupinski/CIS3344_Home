@@ -11805,11 +11805,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Users\\DingDongFootball\\source\\repos\\CIS3344_Lab4_Dating2\\Game Gurus API\\Game Gurus API.csproj",
+      "projectUniqueName": "C:\\Users\\bjenk\\Documents\\GitHub\\CIS3344_Personal-Website\\CIS3344_Lab4_Dating2\\Game Gurus API\\Game Gurus API.csproj",
       "projectName": "Game Gurus API",
-      "projectPath": "E:\\Users\\DingDongFootball\\source\\repos\\CIS3344_Lab4_Dating2\\Game Gurus API\\Game Gurus API.csproj",
+      "projectPath": "C:\\Users\\bjenk\\Documents\\GitHub\\CIS3344_Personal-Website\\CIS3344_Lab4_Dating2\\Game Gurus API\\Game Gurus API.csproj",
       "packagesPath": "C:\\Users\\bjenk\\.nuget\\packages\\",
-      "outputPath": "E:\\Users\\DingDongFootball\\source\\repos\\CIS3344_Lab4_Dating2\\Game Gurus API\\obj\\",
+      "outputPath": "C:\\Users\\bjenk\\Documents\\GitHub\\CIS3344_Personal-Website\\CIS3344_Lab4_Dating2\\Game Gurus API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11851,6 +11851,7 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
